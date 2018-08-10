@@ -84,7 +84,11 @@ app.use('/api', apiRoutes);
 
 // app.use(passportConf);
 
-app.listen(secret.port, function(err) {
-  if (err) throw err;
+// app.listen(secret.port, function(err) {
+//   if (err) throw err;
+//   console.log('Server is Running on port ' + secret.port);
+// });
+
+app.listen(process.env.PORT || secret.port, process.env.IP, function() {
   console.log('Server is Running on port ' + secret.port);
 });
