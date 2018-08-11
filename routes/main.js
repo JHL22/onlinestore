@@ -50,7 +50,8 @@ router.get('/cart', passportConf.isAuthenticated, function(req, res, next) {
 
 router.post('/product/:product_id', function(req, res, next) {
   Cart.findOne({ owner: req.user._id }, function(err, cart) {
-    cart.items.push({
+    // cart.items.push({
+    cart.items.concat({
       item: req.body.product_id,
       price: parseFloat(req.body.priceValue),
       quantity: parseInt(req.body.quantity)
