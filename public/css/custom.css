@@ -5,6 +5,12 @@ body {
   flex-direction: column;
 }
 
+.jumbotron {
+  background-image: url('../img/jumbotron.jpg');
+  background-size: cover;
+  height: 50vh;
+}
+
 main {
   min-height: 100vh;
 
