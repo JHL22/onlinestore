@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 53px;
   display: flex;
   flex-direction: column;
 }
@@ -8,7 +8,7 @@ body {
 .jumbotron {
   background-image: url('../img/jumbotron.jpg');
   background-size: cover;
-  height: 50vh;
+  height: 70vh;
 }
 
 main {
