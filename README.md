@@ -1,57 +1,59 @@
 # online store website
 
-Install Nodemon
-Install Express
-Create a home route
-Install mongoose
-Install bcrypt-nodejs
-Configure Database with MongoLab
-Create UserSchema
-Install EJS, EJS-Mate
+Project build process:
 
-- views/home page
-- HTML boilerplate page
-- Layout page
-- Partials - Navbar, Footer
+*Install Nodemon
+*Install Express
+*Create a home route
+*Install mongoose
+*Install bcrypt-nodejs
+*Configure Database with MongoLab
+*Create UserSchema
+*Install EJS, EJS-Mate
 
-Add Bootstrap
-Main Routes in Views folder - Home, Product, Cart, and Search
-User Routes in Views/Accounts folder - Login, Signup, Profile, and Logout
+*views/home page
+*HTML boilerplate page
+*Layout page
+*Partials - Navbar, Footer
 
-Install Express-Session, Express-Flash, Cookie Parser
-Sign up logic
-Install and configure Passport and Connect-Mongo,
-Login/Logout system
-Add jQuery CDN
-Create pages for Signup, Login, and Profile.  
-Custom CSS file
-Add Edit User Profile feature  
-Categories model and routes
-Products model and routes
-Search page
-Configure search feature using Ajax
+*Add Bootstrap
+*Bootstrap Social
+*Font Awesome
+*Add jQuery CDN
+\*Custom CSS file
 
-Cart feature
+*Main Routes in Views folder - Home, Product, Cart, and Search
+*User Routes in Views/Accounts folder - Login, Signup, Profile, and Logout
 
-- Cart Schema
-- Modify signup route
-- Add cart quantity middleware
-- Add route for adding products
-- Modify single Product page
-- Interactivity to + / - buttons
-- Add cart route
-- Add cart page
-- Add route for removing products
+\*Install Express-Session, Express-Flash, Cookie Parser
 
-Payment feature
+*Sign up logic
+*Install and configure Passport and Connect-Mongo,
+*Login/Logout system
+*Add Facebook Login
+\*Install passport-facebook
 
-- Add Stripe Payment form
-- Add Stripe Payment route
+*Create pages for Signup, Login, and Profile.  
+*Add Edit User Profile feature  
+*Categories model and routes
+*Products model and routes
+*Use Faker API to create random products
+*Search page
+\*Configure search feature using Ajax
 
-Add Spinner
-Add Purchase History page
-Add Facebook Login
+*Cart Schema - Cart feature
+*Modify signup route
+*Add cart quantity middleware
+*Add route for adding products
+*Modify single Product page
+*Interactivity to + / - buttons
+*Add cart route
+*Add cart page
+\*Add route for removing products
 
-- Install passport-facebook
-- Bootstrap Social
-- Font Awesome
+*Payment feature
+*Add Stripe Payment form
+\*Add Stripe Payment route
+
+*Add Spinner
+*Add Purchase History page
